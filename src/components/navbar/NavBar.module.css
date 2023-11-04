@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    z-index: 2;
+}
+
+.TransPurch, .PlaningPurch{
+    width: 250px;
+    height: 130px;
+}
+.TransPurch{
+    background-color: #1B171C;
+}
+.PlaningPurch{
+    background-color: #BA6262;
+}
+a p{
+    color: #FFF;
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+}
+.TransPurch_links{
+    padding-top: 6px;
+}

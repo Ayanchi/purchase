@@ -1,0 +1,42 @@
+.company{
+    display: flex;
+    overflow: hidden;
+}
+.company_card{
+    margin: 0px 20px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0px);
+}
+.carus_button{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    top: -280px;
+    z-index: 1;
+    position: relative;
+}
+.button_hover{
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.button_hover:hover svg circle {
+    fill: #FF0000;
+    transition: 0.5s ease-in-out;
+}
+h2{
+    color: #000;
+
+    font-family: Jockey One;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+.company_card p{
+    color: rgba(0, 0, 0, 0.58);
+
+    font-family: Alegreya Sans SC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}

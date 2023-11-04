@@ -1,0 +1,13 @@
+.contacts{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.footer{
+    background: #252A2D;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 160px;
+}

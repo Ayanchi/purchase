@@ -1,4 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@300;400;500&family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya+Sans+SC:wght@300;400;500&family=Inter:wght@300;400;500&family=Jockey+One&display=swap');
+
 :root{
     margin: 0px;
     padding: 0px;
 }
+body{
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+  }

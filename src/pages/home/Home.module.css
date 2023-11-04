@@ -1,0 +1,29 @@
+.image{
+    z-index: -1;
+    width: 100%;
+    top: -40px;
+    position: relative;
+}
+h1{
+    color: #000;
+    font-family: Abril Fatface;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+}
+.home_content p{
+    color: rgba(0, 0, 0, 0.67);
+    font-family: Abril Fatface;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.home_content{
+    text-align: center;
+    background: #F5F5F5;
+    margin-top: -50px;
+    padding: 10px 0px;
+}
+.news_section{
+    padding: 20px 100px;
+}

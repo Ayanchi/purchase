@@ -1,0 +1,17 @@
+.header{
+    background-color: #252A2D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+    padding: 10px 160px;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.contacts_section{
+    display: flex;
+    align-items: center;
+}
