@@ -55,7 +55,7 @@ export const PersonalArea = () => {
 
             {role === 'perso' && (
                 <section className={personalAreaStl.company}>
-                    <h3>В каких закупках вы учавствуете</h3>
+                    <h3>В каких закупках вы участвуете</h3>
                     <TableContainer component={Paper}>
                         <Table className={classes.table} aria-label="customized table">
                             <TableHead>

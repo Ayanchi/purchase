@@ -17,11 +17,17 @@
 }
 
 .name{
-    color: #252A2D;
+
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 19px;
+}
+.name a{
+    color: #252A2D;
+}
+.name a:hover{
+    color: black;
 }
 
 .tenderItemCenter{

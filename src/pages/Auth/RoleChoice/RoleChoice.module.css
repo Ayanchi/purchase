@@ -21,7 +21,7 @@
 }
 .roleBox{
     width: 270px;
-    height: 160px;
+    height: 180px;
     background: #F0f0f099;
     border-radius: 10px;
     border: 1px solid lightgray;
@@ -45,7 +45,7 @@
 }
 
 .roleBoxImg{
-    margin-top: 50px;
+    margin-top: 40px;
     width: 70px;
     height: 70px;
 }
