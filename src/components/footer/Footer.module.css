@@ -44,3 +44,11 @@
         padding: 20px 16px;
     }
 }
+@media (max-width: 547px){
+    .contacts{
+        font-size: 15px;
+    }
+    .M{
+        margin-right: 50px;
+    }
+}
