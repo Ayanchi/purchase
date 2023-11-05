@@ -23,7 +23,7 @@ const drawerWidth =300;
 const navItems = [ 
     {
         text:'Мониторинг',
-        link: ''    
+        link: '/monitoring'    
     },
     {
         text:'Кабинет',
@@ -90,13 +90,9 @@ export default function Header(props: Props) {
                 </Link>
               </Button>
             ))}
-            <Button id={headerStl.comeIn_button}>
-                <Link to='' style={{color: '#FFF'}}>
-                    Регистрация
-                </Link>
-            </Button>
+    
             <Button id={headerStl.comeIn_button} >
-                <Link to='' style={{color: '#FFF'}}>
+                <Link to='/registration/role-choice' style={{color: '#FFF'}}>
                     Вход
                 </Link>
             </Button>
