@@ -1,17 +1,27 @@
-.header{
-    background-color: #252A2D;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;;
-    padding: 10px 160px;
-
-    color: #FFF;
-    font-family: Inter;
-    font-size: 14px;
+#header{
+    background-color: #FFFFFF;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
 }
 .contacts_section{
     display: flex;
     align-items: center;
+}
+a{
+    font-family: Fira Sans;
+}
+#comeIn_button{
+    background: #46BADE;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: aliceblue;
+    margin-left: 20px;
+}
+.main_links{
+    color: var(--light-text, #9A9EA6);
+}
+#logo_link{
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
 }

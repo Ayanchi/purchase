@@ -1,13 +1,46 @@
 .contacts{
-    color: #FFF;
+    color: #4475F2;
     font-family: Inter;
-    font-size: 14px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
 }
 .footer{
-    background: #252A2D;
+    background: #FFF;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 20px 160px;
+}
+.footer_links{
+    display: flex;
+}
+.M{
+    margin-right: 100px;
+    color: #9A9EA6;
+    font-size: 18px;
+}
+.main_text{
+    color: black;
+    font-weight: 700;
+}
+.main_info{
+    margin-left: 60px;
+}
+.contacts p{
+    text-align: end;
+}
+.cont{
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 998px){
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 547px){
+    .footer{
+        padding: 20px 16px;
+    }
 }

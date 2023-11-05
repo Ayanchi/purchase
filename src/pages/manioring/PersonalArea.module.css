@@ -1,0 +1,87 @@
+.person{
+    text-align: center;
+}
+.person p{
+    color: #000;
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+.company, .provider{
+    padding: 20px 150px;
+}
+h4, h3{
+    color: #000;
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.personalAreaSet{
+    padding: 20px 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+input{
+    margin-top: 20px;
+}
+.button_area{
+    width: 100px;
+    margin-top: 20px;
+    border: none;
+    background-color: #FFA41B;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: Fira Sans;
+    font-weight: 500;
+}
+
+.custom-file-upload {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .custom_label {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  label:hover {
+    background-color: #0056b3; /* Измененный цвет фона при наведении */
+  }
+.stage{
+    margin: 20px 50px;
+}
+.PersonalAreaProvider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button_areaProvider{
+    width: 600px;
+    margin-top: 20px;
+    border: none;
+    background-color: #FFA41B;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-family: Fira Sans;
+    font-weight: 500;
+    font-size: 20px;
+}
+@media (max-width: 881px){
+    .company, .provider{
+        padding: 20px 50px;
+    }
+}

@@ -11,7 +11,7 @@
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    top: -280px;
+    top: -380px;
     z-index: 1;
     position: relative;
 }
@@ -21,7 +21,7 @@
 }
 
 .button_hover:hover svg circle {
-    fill: #FF0000;
+    fill: #5271FF;
     transition: 0.5s ease-in-out;
 }
 h2{

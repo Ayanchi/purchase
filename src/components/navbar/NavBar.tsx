@@ -5,7 +5,7 @@ const NavBar = () => {
     return(
         <section className={navBarStl.navbar}>
             <div className={navBarStl.TransPurch}>
-                <Link to=''>
+                <Link to='/login'>
                     <div className={navBarStl.TransPurch_links}>
                         <p>Trans</p>
                         <p>Purch</p>
