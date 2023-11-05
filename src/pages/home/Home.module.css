@@ -58,6 +58,22 @@ h1{
     opacity: 1;
     transition: 0.5s ease-in-out;
 }
+.button_mon{
+    border: none;
+    background-color: #EAAA60;
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 20px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F5F5F5;
+}
+.button_mon:hover{
+
+    background-color: #6DB8E3;
+    transition: 0.5s ease-in-out;
+}
 @media (max-width: 1151px){
     .image{
         width: 500px;

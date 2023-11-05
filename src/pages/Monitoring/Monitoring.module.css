@@ -103,3 +103,9 @@
     font-weight: 500;
     margin-bottom: 3px;
 }
+
+@media (max-width: 797px){
+    .tenderItemCenter{
+        flex-direction: column;
+    }
+}

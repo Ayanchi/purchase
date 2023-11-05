@@ -12,6 +12,7 @@ const Home = () => {
                 <div className={homeStl.main_content_text}>
                     <h5>О нас</h5>
                     <p>проект TrunsPurch, помогает гражданам страны видеть и отслеживать процесс получения финансов от государства компанией выигравшей тендер с помощью доски для мониторинга</p>
+                    <Link to='/monitoring'><button className={homeStl.button_mon}>Мониторинг</button></Link>
                 </div>
                 <img src={PurchImg} alt="" className={homeStl.image}/>
             </div>
@@ -25,7 +26,7 @@ const Home = () => {
             </div>
 
             <div className={homeStl.bot}>
-                <Link to=''>
+                <Link to='https://t.me/monstereebot'>
                     <img src={penguin} alt="" width='100px' className={homeStl.log_mini}/>
                     <img src={video} alt="" className={homeStl.peng_mini}/>
                 </Link>

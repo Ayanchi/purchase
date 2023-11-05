@@ -1,6 +1,9 @@
 import newsStl from './News.module.css'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import glovo from '../../assets/GlovoApp.png'
+import image1 from '../../assets/Без названия (1).png'
+import image2 from '../../assets/Без названия (2).png'
+import image3 from '../../assets/Без названия.png'
 
 const News = () => {
 
@@ -11,28 +14,28 @@ const News = () => {
             description: 'Закупки на поставление продуктов'
         },
         {
-            company: 'Glovo',
-            image: glovo,
+            company: 'APPD',
+            image: image1,
             description: 'Закупки на поставление продуктов'
         },
         {
-            company: 'Glovo',
-            image: glovo,
+            company: 'NommoTrade',
+            image: image2,
             description: 'Закупки на поставление продуктов'
         },
         {
-            company: 'Glovo',
-            image: glovo,
+            company: 'Partner',
+            image: image3,
             description: 'Закупки на поставление продуктов'
         },
         {
-            company: 'Glovo',
-            image: glovo,
+            company: 'APPD',
+            image: image1,
             description: 'Закупки на поставление продуктов'
         },
         {
-            company: 'Glovo',
-            image: glovo,
+            company: 'NommoTrade',
+            image: image2,
             description: 'Закупки на поставление продуктов'
         },
     ]

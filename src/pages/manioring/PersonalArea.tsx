@@ -107,24 +107,20 @@ export const PersonalArea = () => {
                                   <StyledTableCell align="center">НАИМЕНОВАНИЕ ЗАКУПКИ</StyledTableCell>
                                   <StyledTableCell align="center">МЕТОД ЗАКУПОК</StyledTableCell>
                                   <StyledTableCell align="center">ДАТА ОПУБЛИКОВАНИЯ</StyledTableCell>
-                                  <StyledTableCell align="center">МЕТОД ЗАКУПОК</StyledTableCell>
                               </TableRow>
                             </TableHead>
 
                             <TableBody>
                               <StyledTableRow>
-
                                 <StyledTableCell component="th" scope="row">
                                   Закупка
                                 </StyledTableCell>
-                                <StyledTableCell align="center"><Link to='/area/provider'>1</Link></StyledTableCell>
+                                <StyledTableCell align="center"><Link to='/area/provider'>NomadComarce</Link></StyledTableCell>
                                 
-                                <StyledTableCell align="center">1</StyledTableCell>
-                                <StyledTableCell align="center">1</StyledTableCell>
-                                <StyledTableCell align="center">1</StyledTableCell>
-                                <StyledTableCell align="center">1</StyledTableCell>
-                                <StyledTableCell align="center">1</StyledTableCell>
-                                  
+                                <StyledTableCell align="center">Наличные</StyledTableCell>
+                                <StyledTableCell align="center">Закупка на компьютеры</StyledTableCell>
+                                <StyledTableCell align="center">ограниченные</StyledTableCell>
+                                <StyledTableCell align="center">20 октября 2021</StyledTableCell>
                               </StyledTableRow>
                             
                             
