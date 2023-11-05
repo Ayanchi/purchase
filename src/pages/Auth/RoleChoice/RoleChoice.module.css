@@ -1,0 +1,93 @@
+.roleHeader{
+    color: #252A2D;
+    text-align: center;
+    font-family: Inter;
+
+    font-style: normal;
+    font-weight: 800;
+    margin: 50px 0;
+}
+.roleHeaderTitle{
+    font-size: 40px;
+}
+.roleHeaderSubtitle{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.rolePickContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.roleBox{
+    width: 270px;
+    height: 160px;
+    background: #F0f0f099;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    transition: 0.3s;
+
+    text-align: center;
+    padding: 20px 0;
+}
+.roleBox a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #252A2D;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+}
+.roleBox:hover{
+    box-shadow: 0 0 10px lightgray;
+    transition: 0.3s;
+}
+
+.roleBoxImg{
+    margin-top: 50px;
+    width: 70px;
+    height: 70px;
+}
+
+@media (max-width: 1024px) {
+    .roleBox{
+        width: 230px;
+        height: 120px;
+    }
+    .roleBox a{
+        font-size: 16px;
+    }
+    .roleBoxImg{
+        margin-top: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .roleBox{
+        width: 150px;
+        height: 70px;
+    }
+    .roleBox a{
+        font-size: 15px;
+    }
+    .roleBoxImg{
+        margin-top: 10px;
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (max-width: 480px) {
+    .roleBox{
+        width: 100px;
+        height: 50px;
+    }
+    .roleBox a{
+        font-size: 10px;
+    }
+    .roleBoxImg{
+        width: 20px;
+        height: 20px;
+    }
+}

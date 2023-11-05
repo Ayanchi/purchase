@@ -1,0 +1,99 @@
+.monitoringTitle{
+    color: #252A2D;
+    text-align: center;
+    font-family: Inter;
+
+    font-style: normal;
+    font-weight: 800;
+    margin: 50px 0;
+    font-size: 40px;
+}
+.tenderItem{
+    margin: 30px 0;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.name{
+    color: #252A2D;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.tenderItemCenter{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.tenders{
+
+}
+.tenderItemHeader{
+
+}
+.itemPublishDate{
+    width: 30%;
+    border-right: 1px solid #d3d3d3;
+}
+.left{
+
+}
+.right{
+
+}
+.item{
+
+}
+.itemLeftDays{
+    width: 30%;
+    border-right: 1px solid #d3d3d3;
+
+}
+.itemMaxPrice{
+    width: 30%;
+    border-right: 1px solid #d3d3d3;
+}
+.values{
+    color: #252A2D;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.values ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+.info{
+    padding: 0 0 0 45px  ;
+}
+
+
+.fields{
+    display: flex;
+    justify-content: space-between;
+}
+.label{
+    color: #252A2D;
+    font-family: Inter;
+    font-weight: 300;
+    margin-bottom: 3px;
+}
+.value{
+    color: #252A2D;
+    font-family: Inter;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.company a{
+    color: #252A2D;
+    font-family: Inter;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
