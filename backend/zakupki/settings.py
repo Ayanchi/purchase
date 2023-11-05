@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "djoser",
     "user.apps.UserConfig",
     "rest_framework",
+    "bs4",
     'corsheaders',
 ]
 
